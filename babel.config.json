@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "app": "./app",
+          "infrastructure": "./infrastructure"
+        }
+      }
+    ]
+  ],
+  "ignore": [
+    "./node_modules",
+    "./test"
+  ]
+}
