@@ -1,0 +1,22 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true,
+      "mocha": true
+  },
+  "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+  },
+  "rules": {},
+  "settings": {
+      "import/resolver": {
+          "babel-module": {}
+      }
+  }
+}
