@@ -2,6 +2,7 @@
   "name": "vacation-be",
   "version": "1.0.0",
   "private": true,
+  "entry":"app.js",
   "scripts": {
     "dev": "nodemon --exec babel-node ./bin/www.js",
     "clean": "rm -rf build",
